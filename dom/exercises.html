@@ -66,6 +66,16 @@
         btn1.addEventListener('click',function(){ 
             console.log(textName.value); 
           });
+
+        //6 
+        let btn2 = document.getElementById("btn2"); 
+        let textName2 = document.getElementById("name2"); 
+        let namesList = document.querySelector('#nameList > ul'); 
+        btn2.addEventListener('click',function(){ 
+            let newLi = document.createElement('li'); 
+            newLi.textContent = textName2.value; 
+            namesList.appendChild(newLi); 
+          });
         
     </script>
 
