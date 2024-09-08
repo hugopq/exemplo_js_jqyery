@@ -51,6 +51,14 @@
         let paragraph = document.createElement("p"); 
         paragraph.textContent = "Added paragraph text"; 
         document.body.appendChild(paragraph);
+
+        //4 
+        let result = document.getElementById('result'); 
+        let menuAnchors = document.querySelectorAll(".menu-item"); 
+        menuAnchors.forEach(element =>{ 
+            result.appendChild(element); 
+          });
+        
     </script>
 
   </body>
