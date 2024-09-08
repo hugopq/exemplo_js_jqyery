@@ -60,6 +60,12 @@
           $('#btn1').click(function() { 
               console.log($('#name').val()); 
           });
+          
+          //6
+          $('#btn2').click(function() { 
+              let vLi = $("<li></li>").text($('#name2').val()); 
+              $('#nameList ul').append(vLi); 
+          });
       });   
     </script>
 
