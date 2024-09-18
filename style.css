@@ -36,8 +36,9 @@ li button {
 }
 
 .menu-clear {
-    background-color: white;
+    background-color: wheat;
   }
+  
 .menu-clear li a {
     color: black;
 }
